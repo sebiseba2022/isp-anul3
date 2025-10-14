@@ -77,7 +77,8 @@ public class Main {
             }
             System.out.println();
         }
-        
+
+
 
         // Adaugare activitati in scoala
         scoala.adaugaActivitate(act1);
