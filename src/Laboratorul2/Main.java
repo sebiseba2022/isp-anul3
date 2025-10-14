@@ -54,9 +54,12 @@ public class Main {
         }
 
         // Creare activitati
+
         Profesor prof1 = new Profesor("Ioan Marian");
+        Profesor prof2 = new Profesor("Andrei Dumitra");
         Activitate act1 = new Activitate("Sport", prof1);
-        Activitate act2 = new Activitate("Muzica", prof1);
+        Activitate act2 = new Activitate("Muzica", prof2);
+ Activitate act3 = new Activitate("Matematica", prof2);
 
         // Adaugare elevi in activitati
         act1.adaugaElev(elev1);
@@ -82,6 +85,7 @@ public class Main {
 
         // Adaugare activitati in scoala
         scoala.adaugaActivitate(act1);
+        scoala.adaugaActivitate(act3);
         scoala.adaugaActivitate(act2);
 
         // Afisare top activitati
