@@ -53,6 +53,7 @@ public class Main {
             System.out.println();
         }
 
+
         // Creare activitati
 
         Profesor prof1 = new Profesor("Ioan Marian");
